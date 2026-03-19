@@ -60,3 +60,14 @@ SELECT
 	FROM pnp_sales_2025_01 AS j
 	LEFT JOIN pnp_sales_2025_02 AS F
 	ON j.ProductID = F.ProductID; 
+
+
+-- The RIGHT JOIN,
+-- returns all rows from the right table, and only matching from left
+-- So you just have to change the join type from left join to right join
+-- Pro TIP, You can switch the tables, make the right table the left table and the left table the right table and use left join, and you will get 
+-- the Same results as the right JOIN
+
+-- FULL JION
+-- Returns All Rows from both tables, whether it matches or not
+-- The order of the tables doesnt matter
